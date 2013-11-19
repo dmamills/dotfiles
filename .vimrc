@@ -8,3 +8,4 @@ set ruler
 set autoindent smartindent
 set smarttab
 set number
+set background=dark

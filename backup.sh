@@ -1,4 +1,4 @@
-declare -a DOTFILES=(".bash_profile" ".bashrc" ".irssi" ".tmux.conf" ".vimrc" ".irssi/")
+declare -a DOTFILES=(".bash_profile" ".bashrc" ".irssi" ".tmux.conf" ".vimrc" ".irssi/" ".git-prompt.sh")
 BACKUPFOLDER=$HOME"/Documents/dotfiles/"
 
 for i in ${DOTFILES[@]}
