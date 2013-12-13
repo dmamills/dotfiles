@@ -2,7 +2,7 @@
 # function for navigating to
 # a project.
 proj(){
-	cd '/Users/'$USER'/Documents/Projects/'$1
+	cd $HOME'/Documents/Projects/'$1
 }
 
 # Quick switch to project folder
@@ -16,6 +16,9 @@ alias ll='ls -l'
 
 #go home
 alias gh='cd '$HOME
+
+#php artisan
+alias art='php artisan'
 
 
 ## load git branch
@@ -32,3 +35,5 @@ export PS1="\e[0;32m\u@\h\e[m\e[0;34m:\e[m\e[0;36m\w\e[m \$(__git_ps1) \n\e[0;32
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
+nvm use 0.10.22
+
